@@ -71,12 +71,3 @@ server {
 ```
 
 
-
-
-
-```
-docker run --name web -v /root/itop:/app -p 80:80 -e PHP_POST_MAX_SIZE=100M -e VERSION_ITOP=3.0.0 -d jackywn/itop
-
-docker run --name web -v /root/itop:/app -p 80:80 -d jackywn/itop
-```
-
