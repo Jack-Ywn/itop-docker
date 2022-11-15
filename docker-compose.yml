@@ -30,6 +30,6 @@ services:
     volumes:
       - ./itop:/app 
     environment:
-      - VERSION_itop=3.0.1
+      #- VERSION_itop=3.0.1
       - PHP_DATE_TIMEZONE=Asia/Shanghai
       - PHP_POST_MAX_SIZE=100M 
