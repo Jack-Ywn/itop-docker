@@ -1,5 +1,5 @@
 #基础镜像
-FROM webdevops/php-nginx:8.1-alpine
+FROM webdevops/php-apache:7.4-alpine
 
 #添加拓展
 ADD https://github.com/mlocati/docker-php-extension-installer/releases/latest/download/install-php-extensions /usr/local/bin/
